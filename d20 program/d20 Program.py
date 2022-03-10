@@ -130,24 +130,12 @@ def roll():
             label1.image = test      
              
 
-
-
-
 #setup title
 welcomemessage = tkinter.Label(root, text='Welcome to Dnd Roller', fg='black', bg='cyan', font='Helvetica 16 bold italic')
 welcomemessage.pack()
-
-
-
 
 #setup button
 button = tkinter.Button(root, text='Roll D20', command= roll)
 button.pack()
 
-
-
-
 root.mainloop()
-
-
-
